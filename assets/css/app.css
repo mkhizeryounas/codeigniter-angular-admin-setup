@@ -1,0 +1,60 @@
+button, .btn, a {
+	border-radius: 2px !important;
+}
+.cc:hover , .cc:active , .cc:focus, .clink, .clink:active {
+	text-decoration: none !important;
+}
+.fsmall {
+	font-size: 12px;
+}
+#custom tr {
+	border-bottom: 1px solid #eee;
+}
+#custom  {
+	border-right: 6px solid #eee;
+}
+.header1 {
+	padding: 0px;
+	font-size: 25px;
+	font-weight: bold;
+	color: #333;
+	border-bottom: 2px solid #eee;
+	border-top: 6px solid #eee;
+	padding-left: 10px;
+}
+.cdiv {
+	border-bottom: 2px solid #eee;
+	padding-bottom: 10px;
+	margin-top: 10px;
+}
+.linfo {
+	color: #EF6F08;
+}
+
+#app-content {
+    //box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.activex{
+  color: #999;
+  font-size:14px;
+  border-left: 5px solid #2f4050 !important;
+  //box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1), 0 0px 25px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media print {
+	nav {
+		display: none;
+	}
+	.noprint {
+		display: none;
+	}
+}
+
+#wait,#error,#success {
+	position: fixed;
+	right: 35px;
+	bottom: 15px;
+	z-index: 999;
+	display: none;
+}
