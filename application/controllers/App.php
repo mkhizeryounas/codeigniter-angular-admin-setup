@@ -70,7 +70,8 @@ class App extends CI_Controller {
 		if($this->form_validation->run() && $pwd_ch && $store_ch) {
 			// echo 'run';
 			$req = array (
-				'store_name' => $this->input->post('name'),
+				'store_full_name' => $this->input->post('name'),
+				'store_name' => $this->input->post('store'),
 				'store_email' => $this->input->post('email'),
 				'store_password' => pwd($this->input->post('pwd')),
 				'store_key' => pwd(uniqid())

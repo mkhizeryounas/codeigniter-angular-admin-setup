@@ -7,12 +7,12 @@
 			<div class="col-md-8">
 				<?php echo form_error('email', '<small style="color: red !important;">', '</small>'); ?>
 				<div class="login-mail">
-					<input type="text" placeholder="Email" name="email" value="<?php echo set_value('name') ?>">
+					<input type="text" placeholder="Email" name="email" value="<?php echo set_value('email') ?>">
 					<i class="fa fa-envelope"></i>
 				</div>
 				<?php echo form_error('pwd', '<small style="color: red !important;">', '</small>'); ?>
 				<div class="login-mail">
-					<input type="password" placeholder="Password" name="pwd" required="">
+					<input type="password" placeholder="Password" name="pwd">
 					<i class="fa fa-lock"></i>
 				</div>			
 			</div>

@@ -74,7 +74,7 @@
 		        <ul class=" nav_1">
 		           
 					<li class="dropdown">
-		              <a href="#" class="dropdown-toggle dropdown-at" data-toggle="dropdown"><span class=" name-caret"><span id="storeName">Shopdesk</span>&nbsp;<i class="caret"></i></span><img src="<?php echo base_url(); ?>assets/images/admin.png" style="height:50px; width: auto; padding-top: 8px; padding-right: 8px"></a>
+		              <a href="#" class="dropdown-toggle dropdown-at" data-toggle="dropdown"><span class=" name-caret"><span id="storeName"><?php echo $store_name; ?></span>&nbsp;<i class="caret"></i></span><img src="<?php echo base_url(); ?>assets/images/admin.png" style="height:50px; width: auto; padding-top: 8px; padding-right: 8px"></a>
 		              <ul class="dropdown-menu " role="menu">
 		                <li><a href="<?php echo base_url(); ?>/app/logout"><i class="fa fa-sign-out"></i>Logout</a></li>
 		              </ul>

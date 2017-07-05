@@ -9,7 +9,7 @@ class Auth_model extends CI_Model {
 		return $this->db->query($q)->result_array();
 	}
 	public function new_store($req) {
-		$q = 'INSERT INTO stores(store_name, store_email, store_password, store_key) VALUES ("'.$req['store_name'].'","'.$req['store_email'].'","'.$req['store_password'].'","'.$req['store_key'].'")';
+		$q = 'INSERT INTO stores(store_name, store_email, store_password, store_key, store_full_name) VALUES ("'.$req['store_name'].'","'.$req['store_email'].'","'.$req['store_password'].'","'.$req['store_key'].'","'.$req['store_full_name'].'")';
 		$this->db->query($q);
 	}
 	public function login($email, $pass) {
