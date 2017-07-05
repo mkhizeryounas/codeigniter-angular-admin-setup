@@ -55,7 +55,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-               <h1 style="font-family: 'Comfortaa', cursive;">  <a class="navbar-brand" href="javascript:void(0)"><center><!--img src="./images/logo.png" style="height:30px; width: auto; padding-right: 3px;"-->shopdesk</center></a></h1>         
+               <h1 style="font-family: 'Comfortaa', cursive;">  <a class="navbar-brand" href="javascript:void(0)"><center><!--img src="./images/logo.png" style="height:30px; width: auto; padding-right: 3px;"-->cartify</center></a></h1>         
 			   </div>
 			 <div class=" border-bottom">
         	<div class="full-left">
@@ -115,7 +115,7 @@
 	<!--//faq-->
 		<!---->
 <div class="copy">
-            <p> &copy; <?php echo date('Y'); ?> Shopdesk. All Rights Reserved | Powered by <a href="http://shopdesk.co/" target="_blank">Shopdesk</a> </p>	    </div>
+            <p> &copy; <?php echo date('Y'); ?> Cartify. All Rights Reserved | Powered by <a href="http://shopdesk.co/" target="_blank">Shopdesk</a> </p>	    </div>
 		</div>
 		</div>
 		<div class="clearfix"> </div>
