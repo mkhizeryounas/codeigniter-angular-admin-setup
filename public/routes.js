@@ -16,15 +16,6 @@ app.config(function($stateProvider,$urlRouterProvider) {
       authLevel: "admin"
     }
   })
-  .state('test', {
-    templateUrl: base_url+'public/partials/test.html',
-    url: '/test',
-    controller: "homeCtrl",
-    data : {
-      authLevel: "admin"
-    }
-  })
-
 
   $urlRouterProvider.otherwise('/home');
 });

@@ -85,16 +85,12 @@
 			<div class="clearfix">
        
      </div>
-	  
 		    <div class="navbar-default sidebar" role="navigation">
                 <div class="sidebar-nav navbar-collapse">
                 <ul class="nav" id="side-menu">
 				
                     <li>
-                        <a href="javascript:void(0)" ui-sref="home" class=" hvr-bounce-to-right nav-link activex" id="nav-dashboard"><i class="fa fa-home nav_icon "></i><span class="nav-label">Home</span> </a>
-                    </li>
-                   	<li>
-                        <a href="javascript:void(0)" ui-sref="test" class=" hvr-bounce-to-right nav-link" id="nav-dashboard"><i class="fa fa-cog nav_icon "></i><span class="nav-label">test</span> </a>
+                        <a href="javascript:void(0)" ui-sref="home" class=" hvr-bounce-to-right nav-link" ng-class="{activex: $state.includes('home')}" id="nav-dashboard"><i class="fa fa-home nav_icon "></i><span class="nav-label">Home</span> </a>
                     </li>
                    			
                 </ul>
