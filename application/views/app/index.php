@@ -21,6 +21,7 @@
 <link href="<?php echo base_url(); ?>assets/css/custom.css" rel="stylesheet">
 <script src="<?php echo base_url(); ?>assets/js/custom.js"></script>
 <script src="<?php echo base_url(); ?>assets/js/screenfull.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/main.js"></script>
 
 <link href="<?php echo base_url(); ?>assets/css/bootstrap-select.min.css" rel='stylesheet' type='text/css' />
 
@@ -42,6 +43,7 @@
 <div id="wait" class="alert alert-info"><i class="fa fa-cog fa-spin"></i> Please Wait</div>
 <div id="error" class="alert alert-danger"><i class="fa fa-exclamation-circle"></i> An error occoured</div>
 <div id="success" class="alert alert-success"><i class="fa fa-check"></i> Successful</div>
+<div id="snackbar" style=""><small style=" color:#fff!important;" id="sd-msg">Some text some message..</small></div>
 
 <div id="main-status" style="position: fixed; right: 50px; top:50px; z-index: 999; display:none">
 </div>
