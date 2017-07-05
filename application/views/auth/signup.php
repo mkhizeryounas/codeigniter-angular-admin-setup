@@ -31,12 +31,13 @@
 				</div>	
 
 			</div>
-			<div class="col-md-12">
-				<small class="pull-right"><a href="<?php echo base_url(); ?>app/signin">Already have an account?</a></small>
+			<div class="clearfix"></div>
+			<div class="col-md-6">
+				<small class=""><a href="<?php echo base_url(); ?>app/signin">Already have an account?</a></small>
 			</div>
-			<div class="col-md-12 login-do">
+			<div class="col-md-6 login-do">
 
-				<label class="hvr-shutter-in-horizontal login-sub">
+				<label class="hvr-shutter-in-horizontal login-sub pull-right">
 					<input type="submit" value="Sign up" name="hms-btn">
 				</label>
 			</div>
